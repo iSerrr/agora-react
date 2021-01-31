@@ -1,0 +1,57 @@
+.MenuToggle {
+  font-family: 'Oswald-regular', sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+  height: 100%;
+  border-left: 2px solid #555966;
+  border-right: 2px solid #555966;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.MenuToggle span {
+  padding-right: 15px;
+}
+
+.MenuToggle:hover {
+  transition: background 150ms ease-in;
+  background: rgba(255, 255, 255, .1);
+}
+
+@media  (max-width: 467px){
+  .MenuToggle span {
+    display: none;
+  }
+}
+@media (max-width: 467px) {
+  .MenuToggle {
+    font-family: 'Oswald-regular', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    height: 100%;
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .MenuToggle span {
+    padding-right: 15px;
+  }
+
+  .MenuToggle:hover {
+    transition: background 150ms ease-in;
+    background: rgba(255, 255, 255, .1);
+  }
+
+  @media  (max-width: 467px){
+    .MenuToggle span {
+      display: none;
+    }
+
+  }
+
+}

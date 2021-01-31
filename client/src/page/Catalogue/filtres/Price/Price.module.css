@@ -1,0 +1,9 @@
+.Price {
+}
+.label {
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins-semi-bold", sans-serif;
+}

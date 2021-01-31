@@ -1,0 +1,15 @@
+.ProductCatalogsList {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  overflow-x: auto;
+}
+
+.ProductCatalogsList > * {
+  border-right: 1px dotted rgba(255, 255, 255, 1);
+  padding: 0 calc(80 / 1650 * 100%);
+}
+
+.ProductCatalogsList > *:last-child {
+  border-right: none;
+}

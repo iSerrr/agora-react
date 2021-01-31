@@ -1,0 +1,52 @@
+.Product {
+    width: 100%;
+}
+
+.row {
+    padding: calc(165 / 1500 * 100%) calc(125 / 1500 * 100%) 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 50%;
+}
+
+.reviewsList {
+    width: calc(875 / 1250 * 100%);
+}
+
+.reviewsAssessment {
+    width: calc(250 / 1250 * 100%);
+}
+
+/*Mobile*/
+@media (max-width: 767px) {
+    .Product {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .reviewsList {
+        display: none;
+        width: calc(875 / 1250 * 100%);
+    }
+
+    .reviewsAssessment {
+        width: calc(250 / 1250 * 100%);
+    }
+}

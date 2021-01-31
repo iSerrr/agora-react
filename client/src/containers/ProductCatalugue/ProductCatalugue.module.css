@@ -1,0 +1,7 @@
+.CatalogueProductList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.CatalogueProductList li {
+  width: calc(100% / 3);
+}

@@ -1,0 +1,52 @@
+.PreferenceList {
+    width: 100%;
+    display: flex;
+}
+
+.PreferenceList li {
+    position: relative;
+    width: 25%;
+    border: 1px solid rgba(164, 164, 164, 0.25);
+    color: #888888;
+    font-family: 'Poppins-regular', sans-serif;
+    font-size: 13px;
+    letter-spacing: normal;
+    min-width: 270px;
+}
+
+.content {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: calc(70 / 375 * 100%);
+}
+
+.PreferenceList li:after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.tittle {
+    text-align: center;
+    color: #111111;
+    font-family: 'Oswald-regular', sans-serif;
+    text-transform: uppercase;
+    font-size: calc(12px + 1 * 100vw / 120);
+
+}
+
+.description {
+    line-height: 25px;
+    text-align: center;
+}
+
+.icon {
+    font-size: calc(30px + 1 * 100vw / 80);
+}

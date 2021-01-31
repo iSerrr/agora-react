@@ -1,0 +1,18 @@
+{
+  "id": "p001",
+  "brand": "Nike",
+  "category": "shoes",
+  "style": "lifestyle",
+  "title": "LeBron XIII PS",
+  "options": {
+    "colors": [
+      "blue"
+    ],
+    "sizes": [
+      "9.5",
+      "10",
+      "10.5",
+      "11"
+    ]
+  }
+}

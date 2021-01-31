@@ -1,0 +1,41 @@
+.Accordion {
+}
+
+.label {
+    padding-left: 15px;
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Accordion ul a {
+    font-size: 14px;
+    color: #cacaca;
+}
+
+.Accordion ul {
+    padding-top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0 1) inset;
+    box-sizing: border-box;
+    padding-bottom: 0;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 350ms ease-in-out, padding-top 100ms linear 150ms;
+}
+
+.Accordion ul li {
+    padding: 15px 0 15px 35px;
+}
+
+.Accordion ul li:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 35px;
+    border-left: 4px solid #fff;
+}
+
+.Accordion.active ul {
+    transition: max-height 350ms ease-in-out, padding-top 100ms linear;
+    padding-top: 20px;
+    max-height: 500px;
+}

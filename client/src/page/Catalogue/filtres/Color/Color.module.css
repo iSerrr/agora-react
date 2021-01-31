@@ -1,0 +1,29 @@
+.colorList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: -15px;
+
+}
+.colorItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.5);
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+
+.active {
+    opacity: unset;
+    visibility: visible;
+}
+.hide {
+    opacity: 0;
+    visibility: hidden;
+}

@@ -1,0 +1,21 @@
+.ProductList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 25%;
+}
+
+@media (max-width: 767px) {
+    .ProductList {
+        width: 100%;
+        display: none;
+        flex-wrap: wrap;
+    }
+
+    .item {
+        width: 25%;
+    }
+}

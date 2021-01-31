@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../../fonts/icomoon/icomoon.eot?hrzzsv');
+  src: url('../../fonts/icomoon/icomoon.eot?hrzzsv#iefix') format('embedded-opentype'),
+  url('../../fonts/icomoon/icomoon.ttf?hrzzsv') format('truetype'),
+  url('../../fonts/icomoon/icomoon.woff?hrzzsv') format('woff'),
+  url('../../fonts/icomoon/icomoon.svg?hrzzsv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-refresh:before {
+  content: "\e900";
+  color: #3a54d6;
+}
+.icon-arrows:before {
+  content: "\e901";
+  color: #445dd8;
+}
+.icon-cards:before {
+  content: "\e902";
+  color: #445dd8;
+}
+.icon-free-shiping:before {
+  content: "\e903";
+  color: #445dd8;
+}
+.icon-time:before {
+  content: "\e904";
+  color: #445dd8;
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}

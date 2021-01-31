@@ -1,0 +1,18 @@
+.Category {
+    font-family: "Poppins-regular", sans-serif;
+}
+
+.item {
+    cursor: pointer;
+    font-size: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.item:last-child {
+    margin-bottom: 0;
+}
+
+.item.active {
+    color: #3a54d6;
+}

@@ -1,0 +1,35 @@
+.ProductCatalogList {
+  min-width: 200px;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ProductCatalogList li {
+  cursor: pointer;
+  margin-bottom: 7px;
+  font-family: 'Poppins-light', sans-serif;
+  transition: transform 200ms ease-in;
+  transform: translateX(0);
+}
+
+.ProductCatalogList li:hover {
+  transform: translateX(15px);
+  color: #fff;
+}
+
+.ProductCatalogList h3 {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: 'Oswald-regular', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.ProductCatalogList a {
+  color: rgba(255, 255, 255, 1);
+}

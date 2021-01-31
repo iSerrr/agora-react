@@ -1,0 +1,33 @@
+.AboutUs {
+    font-size: 45px;
+}
+
+.pagination {
+    padding: 30px 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.paginationButton {
+    display: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    background: #445dd8;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.paginationButton:first-child,
+.paginationButton:last-child {
+    display: flex;
+}
+
+.paginationButton.currently {
+    display: flex;
+}

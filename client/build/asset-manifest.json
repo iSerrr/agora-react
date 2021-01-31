@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/agora-react-production/static/css/main.44b2deb7.chunk.css",
+    "main.js": "/agora-react-production/static/js/main.67196814.chunk.js",
+    "main.js.map": "/agora-react-production/static/js/main.67196814.chunk.js.map",
+    "runtime-main.js": "/agora-react-production/static/js/runtime-main.be6b2d0a.js",
+    "runtime-main.js.map": "/agora-react-production/static/js/runtime-main.be6b2d0a.js.map",
+    "static/js/2.5452796f.chunk.js": "/agora-react-production/static/js/2.5452796f.chunk.js",
+    "static/js/2.5452796f.chunk.js.map": "/agora-react-production/static/js/2.5452796f.chunk.js.map",
+    "static/js/3.723914f9.chunk.js": "/agora-react-production/static/js/3.723914f9.chunk.js",
+    "static/js/3.723914f9.chunk.js.map": "/agora-react-production/static/js/3.723914f9.chunk.js.map",
+    "index.html": "/agora-react-production/index.html",
+    "static/css/main.44b2deb7.chunk.css.map": "/agora-react-production/static/css/main.44b2deb7.chunk.css.map",
+    "static/js/2.5452796f.chunk.js.LICENSE.txt": "/agora-react-production/static/js/2.5452796f.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/agora-react-production/static/media/poppins-semibold.cce5625b.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be6b2d0a.js",
+    "static/js/2.5452796f.chunk.js",
+    "static/css/main.44b2deb7.chunk.css",
+    "static/js/main.67196814.chunk.js"
+  ]
+}

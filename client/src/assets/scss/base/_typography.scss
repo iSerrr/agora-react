@@ -1,0 +1,30 @@
+//! Import -- poppins -- fonts
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url('../../fonts/popins/poppins-regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins-medium';
+    src: url('../../fonts/popins/poppins-medium.ttf');
+}
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('../../fonts/popins/poppins-light.ttf');
+}
+@font-face {
+    font-family: 'Poppins-semi-bold';
+    src: url('../../fonts/popins/poppins-semibold.ttf');
+}
+
+//! Import -- Oswald -- font
+@font-face {
+    font-family: 'Oswald-regular';
+    src: url('../../fonts/oswald/oswald-regular.ttf');
+}
+
+//! Import -- Monteserat -- font
+@font-face {
+    font-family: 'Monteserrat-bold';
+    src: url('../../fonts/montserrat/montserrat-bold.ttf');
+}
+$PopinsMedium: 'Poppins-medium', sans-serif;

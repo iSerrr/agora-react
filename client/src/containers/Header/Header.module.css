@@ -1,0 +1,10 @@
+.Header {
+    min-height: 400px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 75%), linear-gradient(180deg, rgba(33, 36, 45, 0.75) 0%, rgba(33, 36, 45, 0.75) 100%), no-repeat url("./bg.webp");
+}
+
+@media (max-width: 467px) {
+    .Header {
+        min-height: 0;
+    }
+}

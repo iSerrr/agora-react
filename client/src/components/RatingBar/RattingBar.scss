@@ -1,0 +1,15 @@
+.ratting-bar {
+  display: flex;
+
+  &__star {
+    display: flex;
+    margin-right: 5px;
+    color: #BBBBBB;
+  }
+  & .active {
+    color: #feb312;
+  }
+}
+
+
+

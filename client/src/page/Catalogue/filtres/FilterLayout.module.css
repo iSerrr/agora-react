@@ -1,0 +1,92 @@
+*{box-sizing: border-box;}
+.filterItemConteiner {
+    padding: 33px 0 33px;
+    border-bottom: 1px solid #cbcbcb;
+}
+.wrapper {
+    transition: all 350ms linear;
+    overflow: hidden;
+    padding: 32px 45px 0 60px;
+    font-family: "Poppins-regular", sans-serif;
+    font-size: 12px;
+    color: #111111;
+    font-weight: 400;
+}
+
+.title {
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0 30px 0 60px;
+    position: relative;
+    font-size: 12px;
+    font-family: "Poppins-semi-bold", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.toggler {
+    display: block;
+    top: 50%;
+    width: 6px;
+    height: 9px;
+    position: absolute;
+    left: 33px;
+    transform: translateY(-50%);
+    transition: all 250ms cubic-bezier(0.5, -0.32, 0.65, 1.57);
+}
+
+.toggler.active {
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.toggler:before, .toggler:after {
+    transform-origin: left;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #0b0b0b;
+    position: absolute;
+}
+
+.toggler:before {
+    top: 0;
+    transform: rotate(40deg);
+}
+
+.toggler:after {
+    bottom: 0;
+    transform: rotate(-40deg);
+}
+
+.close {
+    background: transparent;
+    position: relative;
+    width: 10px;
+    height: 10px;
+}
+
+.close:hover {
+    opacity: unset;
+}
+
+.close:before, .close:after {
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #bbbbbb;
+    position: absolute;
+}
+
+.close:before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.close:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
